@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Nav Example</title>
+  <link rel="stylesheet" href="PizzaHeaderStylesheet.css">
+</head>
+<body>
+
+
+    <div id="header" class="no-mobile">
+        <h1 class="wider-words"> PETER'S
+          <img src="pizzaicon.jpg" alt="PizzaIcon" ALIGN="top" >
+          PIZZERIA</h1>      
+    </div>
+
+    <div id="header" class="mobile">
+        <h1 class="wider-words"> PETER'S<br>PIZZERIA</h1>
+
+        <div class="navdropdown">
+          <img src="pizzaicon.jpg" alt="PizzaIcon" ALIGN="top" > 
+          
+            <ul>
+            <li><a href='PizzaHeader.html'>Home</a></li>
+            <li><a href='AboutPage.html'>About</a></li>
+            <li><a href='Order.html'><u>Order</u></a></li>
+            <li><a href='PizzaContact.html'>Contact</a></li>
+            </ul> 
+        </div> <!-- end nav dropdown -->
+    </div> <!-- end header -->
+
+
+    <div class="navSpacing"></div>
+
+    <div id="subheader" class="no-mobile">
+        <h3>“Deticated to community, dedicated to pizza” </h3>
+    </div>
+ 
+    
+    <ul id='nav'>
+        <li><a href='PizzaHeader.html'>Home</a></li>
+        <li><a href='AboutPage.html'>About</a></li>
+        <li><a href='Order.html'><u>Order</u></a></li>
+        <li><a href='PizzaContact.html'>Contact</a></li>
+        </ul>
+      
+  <div class="content">
+    <h2>MENU</h2>
+
+      <table>
+  <tr>
+    <th>Slice</th>
+    <th>Price</th>
+  </tr>
+  <tr>
+    <td>Cheese</td>
+    <td>$1.50</td>
+  </tr>
+  <tr>
+    <td>Pepperoni</td>
+    <td>$2.25</td>
+  </tr>
+  <tr>
+    <td>The Works</td>
+    <td>$3.50</td>
+  </tr>
+</table>
+<br>
+    <h3>Order here for Cutting the Line, Whole Pie Deliveries, and Catering:</h3>
+
+<form action="#">
+  <input type="radio" id="html" name="Services" value="Cut">
+  <label for="html">Cut the Line</label><br>
+  <input type="radio" id="css" name="Services" value="Pie">
+  <label for="css">Whole Pie Delivery</label><br>
+  <input type="radio" id="javascript" name="Services" value="Cater">
+  <label for="javascript">Catering</label><br><br>
+
+   <label for="fname">Your Order Details:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br><br>
+</form>
+
+<h3>Thank You! - Peter's<h3>
+
+  </div>
+
+  <div class="after">
+    <p>See ya next saturday!</p>
+  </div>
+</body>
+</html>

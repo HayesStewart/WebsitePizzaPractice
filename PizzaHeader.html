@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peters Pizzeria</title>
+  <link rel="stylesheet" href="PizzaHeaderStylesheet.css">
+
+  <style>
+    .flex-containertop {
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: hsl(50, 100%, 73%);
+      margin-top:10px;
+      margin-left:20px;
+      margin-right:20px;
+    }
+
+    .flex-containertop > div {
+      background-color: #f1f1f100;
+      width: 50%;
+      margin: 10px;
+      text-align: left;
+      line-height: 7vw;
+      font-size: 7vw;
+      padding: 10px; 
+       /*{font-size: 50px; padding: 10px; margin: 10px;} */
+    }
+
+    .flex-containerbottom {
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: hsl(234, 9%, 23%);
+      margin-top:10px;
+      color: #ac2323f5;
+    }
+
+    .flex-containerbottom > div {
+      background-color: hsl(234, 9%, 23%);
+      width: 25%;
+      margin: 10px;
+      text-align: left;
+      line-height: 30px;
+      font-size: 5vw;
+      padding: 0px; 
+       /*{font-size: 50px; padding: 10px; margin: 10px;} */
+    }
+
+    @media (max-width: 700px){
+      .flex-containertop {
+        flex-wrap: wrap;
+        margin:10px;
+        
+      }
+
+      .flex-containertop > div {
+        font-size: 9vw;
+        width: 100%;
+        line-height: 8vw;
+      }
+
+      .flex-containerbottom{
+        flex-wrap: wrap;
+        margin:10px;
+      }
+      .flex-containerbottom > div {
+        font-size: 9vw;
+        width: 50%;
+        line-height: 5vw;
+        flex: 1 1 150px;
+      }
+
+      
+    }
+
+  </style>
+</head>
+<body>
+
+
+
+    <div id="header" class="no-mobile">
+        <h1 class="wider-words"> PETER'S
+          <img src="pizzaicon.jpg" alt="PizzaIcon" ALIGN="top" >
+          PIZZERIA</h1>      
+    </div>
+
+    <div id="header" class="mobile">
+        <h1 class="wider-words"> PETER'S<br>PIZZERIA</h1>
+
+        <div class="navdropdown">
+          <img src="pizzaicon.jpg" alt="PizzaIcon" ALIGN="top" > 
+          
+            <ul>
+            <li><a href='PizzaHeader.html'><u>Home</u></a></li>
+            <li><a href='AboutPage.html'>About</a></li>
+            <li><a href='Order.html'>Order</a></li>
+            <li><a href='PizzaContact.html'>Contact</a></li>
+            </ul> 
+        </div> <!-- end nav dropdown -->
+    </div> <!-- end header -->
+
+
+
+
+    <div class="navSpacing"></div>
+
+    <div id="subheader" class="no-mobile">
+        <h3>“Deticated to community, dedicated to pizza” </h3>
+    </div>
+ 
+    <ul id='nav'>
+        <li><a href='PizzaHeader.html'><u>Home</u></a></li>
+        <li><a href='AboutPage.html'>About</a></li>
+        <li><a href='Order.html'>Order</a></li>
+        <li><a href='PizzaContact.html'>Contact</a></li>
+        </ul>
+      
+
+
+    <div class="flex-containertop">
+      <div>
+          <img src="Front Cover Pizza.jpg" alt="front" style="max-width: 100%; min-width:0; flex-shrink: 1; height: auto; " ALIGN="left">
+      </div>
+      <div>
+
+        SATURDAY NIGHT SLICES. <br>7PM 'TILL SELLOUT. <br>GET IT BEFORE ITS GONE!
+      </div>
+    </div>
+
+  
+   <div class="content">
+    <p>
+    Every Saturday at 7 pm, come down and grab yourself a warm fresh slice of homemade pizza at <a href="https://www.google.com/maps/place/40+Ossipee+Rd,+Somerville,+MA+02144/@42.4035628,-71.12609,17z/data=!3m1!4b1!4m6!3m5!1s0x89e376e056d8f2b5:0x809cc8b1b2f51f5b!8m2!3d42.4035589!4d-71.1235151!16s%2Fg%2F11c22j3r43?entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">40 Ossipee Road, Somerville</a>. Come to Peter’s Pizzeria and enjoy delicious food, cold drinks, and a genuine friendly atmosphere with your community every weekend!
+    </p> <br>
+    <h2>Wanna save yourself a slice ahead of time? </h2><br>
+
+    <a href="Order.html" class="button">CUT THE LINE!</a> <br> <br> 
+
+    
+    <h2>Hungry on a weekday? Wanna feed your family fresh-out-the-oven goodness? </h2><br>
+    <a href="Order.html" class="button">Whole Pie Deliveries!</a> <br>
+    <br><br>
+  </div>
+
+<div class="after" >
+  <p>Our raving customers:  <br></p>
+  
+
+  <div class="flex-containerbottom">
+      <div>
+          <h3> "The pizza, the energy, the service... To die for..." <br> -Mary Partrige </h3>
+      </div>
+      <div>
+        <h3> "Oh mama mia! What a life!" <br> -Robert Griffith </h3>
+      </div>
+      <div>
+          <h3> "Now thats some good Pizzarino" <br> -Alex Friedman </h3>
+      </div>
+      <div>
+        <h3> "Tada!" <br> -Peter Morganelli </h3>
+      </div>
+  
+   </div>
+</div>
+    
+</body>
+</html>
